@@ -53,5 +53,5 @@ list = [
 
 result = []
 for i in range(len(list)):
-    result.append(np.mean(list[i]))
+    result.append(float(np.mean(list[i])))
 print(result)
